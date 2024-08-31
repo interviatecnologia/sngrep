@@ -14,11 +14,16 @@ baseurl=http://packages.irontec.com/centos/$releasever/$basearch/
 
  
 Salve o arquivo e baixe a chave publica do repositório IRONTEC 
+
 rpm --import http://packages.irontec.com/public.key
+
 Em seguida de um update nos repositórios e instale com os comandos a seguir
+
 yum update
 
+
 yum install sngrep
+
 Agora é só usar...
  
 
