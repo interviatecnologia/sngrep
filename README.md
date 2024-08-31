@@ -7,8 +7,11 @@ Adicione conteúdo abaixo no arquivo
 /etc/yum.repos.d/irontec,repo :
 
 [irontec]
+
 name=Irontec RPMs repository
+
 baseurl=http://packages.irontec.com/centos/$releasever/$basearch/
+
  
 Salve o arquivo e baixe a chave publica do repositório IRONTEC 
 rpm --import http://packages.irontec.com/public.key
