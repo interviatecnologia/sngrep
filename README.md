@@ -3,7 +3,9 @@ Utilizando p editor de texto de sua preferencia no console Linux crie o arquivo 
 vim /etc/yum.repos.d/irontec.repo
  
 
-Adicione conteúdo abaixo no arquivo /etc/yum.repos.d/irontec,repo :
+Adicione conteúdo abaixo no arquivo 
+/etc/yum.repos.d/irontec,repo :
+
 [irontec]
 name=Irontec RPMs repository
 baseurl=http://packages.irontec.com/centos/$releasever/$basearch/
